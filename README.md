@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-[Description of your app]
+This app will be able to used by commuters or travelers who are looking for places to park where it is hard to find parking. This includes urban areas such as cities where the population is only increasing. By pulling in data based on the user's current location, or one they that input, the app will be able to show the user a list of parking facilities that are most convenient to park at.  
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -25,22 +25,25 @@
 
 **Required Must-have Stories**
 
-* Input the location for parking
-* Spit out a list of parking spots and their addresses
+* [ ] - Input or grab the location for parking
+* [ ] - Spit out a list of parking spots, their addresses, and the distance from your current location
 
-**Optional Nice-to-have Stories**
+**Optional Stories**
 
-* Display parking prices and if it is meter/less
-* Automatically find location
-* Display locations on MapKit
-* Login to find user preferred parking
+* [ ] - Display parking prices and if it is meter/less
+* [ ] - Automatically find location using user location
+* [ ] - Display locations on MapKit (or similar)
+* [ ] - Login to find user preferred parking
 
 ### 2. Screen Archetypes
-
+* Login
+   * Login to account or continue as guest
+* Register - User signs up or logs in
+   * When opening the app, the user is prompted to login if they have an account, register if they do not have an account, or to continue as a guest.
 * Creation
-   * Input the location for parking
+   * Input the location(zip code or address)for parking
 * Stream
-   * Spit out a list of parking spots and their addresses
+   * Spit out a list of parking spots and their addresses in a table
 
 ### 3. Navigation
 
