@@ -28,6 +28,9 @@ This app will be able to used by commuters or travelers who are looking for plac
 * [ ] - Create login/register/continue as guest screen
 * [ ] - Input or grab the location for parking
 * [ ] - Spit out a list of parking spots, their addresses, and the distance from your current location
+* [ ] - User can update their password
+* [ ] - User can logout from their account
+* [ ] - User stays logged in when exiting app
 
 **Optional Stories**
 
@@ -45,6 +48,10 @@ This app will be able to used by commuters or travelers who are looking for plac
    * Input the location(zip code or address)for parking
 * Stream
    * Spit out a list of parking spots and their addresses in a table
+* Map View
+    * View locations in a map
+* Settings
+    * Change your password
 
 ### 3. Navigation
 
@@ -61,11 +68,18 @@ This app will be able to used by commuters or travelers who are looking for plac
    * ...
 * Search Parking Screen
    * Input or grab the location for parking
-   * ...
+* List View
+    * View parking locations as a list
+* Map View
+    * View parking locations on a map
+* Settings View
+    * Users can change password
+* Logout
+    * Brings user back to login screen
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[Add picture of your wireframes in this section]
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwOTzwrtGpIHSoKkD0b0WQM%2FParkMe%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
 ### [BONUS] Digital Wireframes & Mockups
 
