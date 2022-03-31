@@ -25,6 +25,7 @@ This app will be able to used by commuters or travelers who are looking for plac
 
 **Required Must-have Stories**
 
+* [ ] - Create login/register/continue as guest screen
 * [ ] - Input or grab the location for parking
 * [ ] - Spit out a list of parking spots, their addresses, and the distance from your current location
 
@@ -55,11 +56,11 @@ This app will be able to used by commuters or travelers who are looking for plac
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
+* Login/Register screen
+   * Create login/register/continue as guest screen
    * ...
-* [list second screen here]
-   * [list screen navigation here]
+* Search Parking Screen
+   * Input or grab the location for parking
    * ...
 
 ## Wireframes
