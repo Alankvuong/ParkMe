@@ -84,7 +84,7 @@ This app will be able to used by commuters or travelers who are looking for plac
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
-<img src='hhttps://github.com/Alankvuong/ParkMe/blob/main/ParkMe-App-Prototype.gif?raw=true' />
+<img src='https://github.com/Alankvuong/ParkMe/blob/main/ParkMe-App-Prototype.gif?raw=true' />
 https://www.figma.com/proto/wOTzwrtGpIHSoKkD0b0WQM/ParkMe?node-id=32%3A203&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A6
 
 ## Schema 
