@@ -111,118 +111,118 @@ https://www.figma.com/proto/wOTzwrtGpIHSoKkD0b0WQM/ParkMe?node-id=32%3A203&scali
 | starRating        | Double          | Rating of location                       |
 
 ### Networking
-## Network Request Outline
 
 - Login Screen
     - (Create/POST) a User
-```swift
-PFObject *pfUser = [PFObject objectWithClassName:"User"]
-pfUser["favoriteLocations"] = []
-pfUser["history"] = []
+    ```swift
+    PFObject *pfUser = [PFObject objectWithClassName:"User"]
+    pfUser["favoriteLocations"] = []
+    pfUser["history"] = []
 
-pfUser.saveInBackground { (succeeded, error)  in
-    if (succeeded) {
-        // The object has been saved.
-    } else {
-        // There was a problem, check error.description
+    pfUser.saveInBackground { (succeeded, error)  in
+        if (succeeded) {
+            // The object has been saved.
+        } else {
+            // There was a problem, check error.description
+        }
     }
-}
-```
+    ```
 - Home Feed
     - (Read/GET) List of parking locations nearby
+
 - Location Page
     - (Read/GET) Location and its data values
     - (Update/PUT) Locations into History
-
-
-```swift
-let location = {SELECTEDLOCATIONHERE}
-let favorite = true;
-let query = PFQuery(className:"User")
-query.getObjectInBackground(withId: {USERIDHERE}) { (pfUser: PFObject?, error: Error?) in
-    if let error = error {
-        print(error.localizedDescription)
-    } else if let pfUser = pfUser {
-        pfUser["history"] += {LOCATIONHERE}
-        pfUser.saveInBackground()
+    ```swift
+    let location = {SELECTEDLOCATIONHERE}
+    let favorite = true;
+    let query = PFQuery(className:"User")
+    query.getObjectInBackground(withId: {USERIDHERE}) { (pfUser: PFObject?, error: Error?) in
+        if let error = error {
+            print(error.localizedDescription)
+        } else if let pfUser = pfUser {
+            pfUser["history"] += {LOCATIONHERE}
+            pfUser.saveInBackground()
+        }
     }
-}
-```
+    ```
+
     - (Update/PUT) Locations into Favorites feed
-    
-```swift
-let location = {SELECTEDLOCATIONHERE}
-let favorite = true;
-let query = PFQuery(className:"User")
-query.getObjectInBackground(withId: {USERIDHERE}) { (pfUser: PFObject?, error: Error?) in
-    if let error = error {
-        print(error.localizedDescription)
-    } else if let pfUser = pfUser {
-        pfUser["favorites"] += {LOCATIONHERE}
-        pfUser.saveInBackground()
+    ```swift
+    let location = {SELECTEDLOCATIONHERE}
+    let favorite = true;
+    let query = PFQuery(className:"User")
+    query.getObjectInBackground(withId: {USERIDHERE}) { (pfUser: PFObject?, error: Error?) in
+        if let error = error {
+            print(error.localizedDescription)
+        } else if let pfUser = pfUser {
+            pfUser["favorites"] += {LOCATIONHERE}
+            pfUser.saveInBackground()
+        }
     }
-}
-```
+    ```
 
 
 - History Feed
     - (Read/GET) List of location histories
 
-```swift
-// iOS
-// (Read/GET) Query all posts where user is author
-let query = PFQuery(className:"History")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error {
-      print(error.localizedDescription)
-   } else if let locations = locations {
-      print("Successfully retrieved \(posts.count) posts.")
-      // TODO: Do something with posts...
-   }
-}
-```
+    ```swift
+    // iOS
+    // (Read/GET) Query all posts where user is author
+    let query = PFQuery(className:"History")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error {
+          print(error.localizedDescription)
+       } else if let locations = locations {
+          print("Successfully retrieved \(posts.count) posts.")
+          // TODO: Do something with posts...
+       }
+    }
+    ```
 
 
     - (Delete) certain locations off the feed
 
-```swift
-let query = PFQuery(className:"History")
-query.deleteAll(inBackground: [{LOCATIONTODELETE}]) { (succeeded, error) in
-    if (succeeded) {
-        // The array of objects was successfully deleted.
-    } else {
-        // There was an error. Check the errors localizedDescription.
+    ```swift
+    let query = PFQuery(className:"History")
+    query.deleteAll(inBackground: [{LOCATIONTODELETE}]) { (succeeded, error) in
+        if (succeeded) {
+            // The array of objects was successfully deleted.
+        } else {
+            // There was an error. Check the errors localizedDescription.
+        }
     }
-}
-```
+    ```
 
    
    
 - Favorites Feed
     - (Read/GET) List of location favorites
-```swift
-// iOS
-// (Read/GET) Query all posts where user is author
-let query = PFQuery(className:"Favorites")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error {
-      print(error.localizedDescription)
-   } else if let locations = locations {
-      print("Successfully retrieved \(posts.count) posts.")
-      // TODO: Do something with posts...
-   }
-}
-```
+    ```swift
+    // iOS
+    // (Read/GET) Query all posts where user is author
+    let query = PFQuery(className:"Favorites")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error {
+          print(error.localizedDescription)
+       } else if let locations = locations {
+          print("Successfully retrieved \(posts.count) posts.")
+          // TODO: Do something with posts...
+       }
+    }
+    ```
 
     - (Delete) certain locations off the feed
     
-```swift
-let query = PFQuery(className:"Favorites")
-query.deleteAll(inBackground: [{LOCATIONTODELETE}]) { (succeeded, error) in
-    if (succeeded) {
-        // The array of objects was successfully deleted.
-    } else {
-        // There was an error. Check the errors localizedDescription.
+    ```swift
+    let query = PFQuery(className:"Favorites")
+    query.deleteAll(inBackground: [{LOCATIONTODELETE}]) { (succeeded, error) in
+        if (succeeded) {
+            // The array of objects was successfully deleted.
+        } else {
+            // There was an error. Check the errors localizedDescription.
+        }
     }
-}
-```
+    ```
+
+
