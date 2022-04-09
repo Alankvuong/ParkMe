@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A117039A28010A4300336D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117039928010A4300336D1B /* AppDelegate.swift */; };
+		A117039C28010A4300336D1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117039B28010A4300336D1B /* SceneDelegate.swift */; };
+		A117039E28010A4300336D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117039D28010A4300336D1B /* ViewController.swift */; };
+		A11703A128010A4300336D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117039F28010A4300336D1B /* Main.storyboard */; };
+		A11703A328010A4700336D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11703A228010A4700336D1B /* Assets.xcassets */; };
+		A11703A628010A4700336D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11703A428010A4700336D1B /* LaunchScreen.storyboard */; };
+		A11703B128010A4700336D1B /* ParkMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11703B028010A4700336D1B /* ParkMeTests.swift */; };
+		A11703BB28010A4700336D1B /* ParkMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11703BA28010A4700336D1B /* ParkMeUITests.swift */; };
+		A11703BD28010A4700336D1B /* ParkMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11703BC28010A4700336D1B /* ParkMeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11703AD28010A4700336D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A117038E28010A4300336D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A117039528010A4300336D1B;
+			remoteInfo = ParkMe;
+		};
+		A11703B728010A4700336D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A117038E28010A4300336D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A117039528010A4300336D1B;
+			remoteInfo = ParkMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A117039628010A4300336D1B /* ParkMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117039928010A4300336D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A117039B28010A4300336D1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A117039D28010A4300336D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A11703A028010A4300336D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A11703A228010A4700336D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11703A528010A4700336D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A11703A728010A4700336D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11703AC28010A4700336D1B /* ParkMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11703B028010A4700336D1B /* ParkMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMeTests.swift; sourceTree = "<group>"; };
+		A11703B628010A4700336D1B /* ParkMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11703BA28010A4700336D1B /* ParkMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMeUITests.swift; sourceTree = "<group>"; };
+		A11703BC28010A4700336D1B /* ParkMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A117039328010A4300336D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703A928010A4700336D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703B328010A4700336D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A117038D28010A4300336D1B = {
+			isa = PBXGroup;
+			children = (
+				A117039828010A4300336D1B /* ParkMe */,
+				A11703AF28010A4700336D1B /* ParkMeTests */,
+				A11703B928010A4700336D1B /* ParkMeUITests */,
+				A117039728010A4300336D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A117039728010A4300336D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A117039628010A4300336D1B /* ParkMe.app */,
+				A11703AC28010A4700336D1B /* ParkMeTests.xctest */,
+				A11703B628010A4700336D1B /* ParkMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A117039828010A4300336D1B /* ParkMe */ = {
+			isa = PBXGroup;
+			children = (
+				A117039928010A4300336D1B /* AppDelegate.swift */,
+				A117039B28010A4300336D1B /* SceneDelegate.swift */,
+				A117039D28010A4300336D1B /* ViewController.swift */,
+				A117039F28010A4300336D1B /* Main.storyboard */,
+				A11703A228010A4700336D1B /* Assets.xcassets */,
+				A11703A428010A4700336D1B /* LaunchScreen.storyboard */,
+				A11703A728010A4700336D1B /* Info.plist */,
+			);
+			path = ParkMe;
+			sourceTree = "<group>";
+		};
+		A11703AF28010A4700336D1B /* ParkMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A11703B028010A4700336D1B /* ParkMeTests.swift */,
+			);
+			path = ParkMeTests;
+			sourceTree = "<group>";
+		};
+		A11703B928010A4700336D1B /* ParkMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A11703BA28010A4700336D1B /* ParkMeUITests.swift */,
+				A11703BC28010A4700336D1B /* ParkMeUITestsLaunchTests.swift */,
+			);
+			path = ParkMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A117039528010A4300336D1B /* ParkMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11703C028010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMe" */;
+			buildPhases = (
+				A117039228010A4300336D1B /* Sources */,
+				A117039328010A4300336D1B /* Frameworks */,
+				A117039428010A4300336D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkMe;
+			productName = ParkMe;
+			productReference = A117039628010A4300336D1B /* ParkMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A11703AB28010A4700336D1B /* ParkMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11703C328010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMeTests" */;
+			buildPhases = (
+				A11703A828010A4700336D1B /* Sources */,
+				A11703A928010A4700336D1B /* Frameworks */,
+				A11703AA28010A4700336D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11703AE28010A4700336D1B /* PBXTargetDependency */,
+			);
+			name = ParkMeTests;
+			productName = ParkMeTests;
+			productReference = A11703AC28010A4700336D1B /* ParkMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A11703B528010A4700336D1B /* ParkMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11703C628010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMeUITests" */;
+			buildPhases = (
+				A11703B228010A4700336D1B /* Sources */,
+				A11703B328010A4700336D1B /* Frameworks */,
+				A11703B428010A4700336D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11703B828010A4700336D1B /* PBXTargetDependency */,
+			);
+			name = ParkMeUITests;
+			productName = ParkMeUITests;
+			productReference = A11703B628010A4700336D1B /* ParkMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A117038E28010A4300336D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A117039528010A4300336D1B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A11703AB28010A4700336D1B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A117039528010A4300336D1B;
+					};
+					A11703B528010A4700336D1B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A117039528010A4300336D1B;
+					};
+				};
+			};
+			buildConfigurationList = A117039128010A4300336D1B /* Build configuration list for PBXProject "ParkMe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A117038D28010A4300336D1B;
+			productRefGroup = A117039728010A4300336D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A117039528010A4300336D1B /* ParkMe */,
+				A11703AB28010A4700336D1B /* ParkMeTests */,
+				A11703B528010A4700336D1B /* ParkMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A117039428010A4300336D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11703A628010A4700336D1B /* LaunchScreen.storyboard in Resources */,
+				A11703A328010A4700336D1B /* Assets.xcassets in Resources */,
+				A11703A128010A4300336D1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703AA28010A4700336D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703B428010A4700336D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A117039228010A4300336D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117039E28010A4300336D1B /* ViewController.swift in Sources */,
+				A117039A28010A4300336D1B /* AppDelegate.swift in Sources */,
+				A117039C28010A4300336D1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703A828010A4700336D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11703B128010A4700336D1B /* ParkMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11703B228010A4700336D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11703BD28010A4700336D1B /* ParkMeUITestsLaunchTests.swift in Sources */,
+				A11703BB28010A4700336D1B /* ParkMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11703AE28010A4700336D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A117039528010A4300336D1B /* ParkMe */;
+			targetProxy = A11703AD28010A4700336D1B /* PBXContainerItemProxy */;
+		};
+		A11703B828010A4700336D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A117039528010A4300336D1B /* ParkMe */;
+			targetProxy = A11703B728010A4700336D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A117039F28010A4300336D1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11703A028010A4300336D1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A11703A428010A4700336D1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11703A528010A4700336D1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11703BE28010A4700336D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11703BF28010A4700336D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11703C128010A4700336D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11703C228010A4700336D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A11703C428010A4700336D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkMe.app/ParkMe";
+			};
+			name = Debug;
+		};
+		A11703C528010A4700336D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkMe.app/ParkMe";
+			};
+			name = Release;
+		};
+		A11703C728010A4700336D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkMe;
+			};
+			name = Debug;
+		};
+		A11703C828010A4700336D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNPL847WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkMe.ParkMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A117039128010A4300336D1B /* Build configuration list for PBXProject "ParkMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11703BE28010A4700336D1B /* Debug */,
+				A11703BF28010A4700336D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11703C028010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11703C128010A4700336D1B /* Debug */,
+				A11703C228010A4700336D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11703C328010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11703C428010A4700336D1B /* Debug */,
+				A11703C528010A4700336D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11703C628010A4700336D1B /* Build configuration list for PBXNativeTarget "ParkMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11703C728010A4700336D1B /* Debug */,
+				A11703C828010A4700336D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A117038E28010A4300336D1B /* Project object */;
+}
