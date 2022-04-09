@@ -1,6 +1,7 @@
 # Git Process for ParkMe Project
 
 **Creating a branch**
+
 In this project, we will have two main branches. 
 1) The ***release*** branch
     a) This branch can be seen as the development branch, where our features will be QA'd before merging into the main branch.
