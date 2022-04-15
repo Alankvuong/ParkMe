@@ -32,6 +32,7 @@ This app will be able to used by commuters or travelers who are looking for plac
 * [ ] - User can logout from their account
 * [ ] - User stays logged in when exiting app
 * [x] - Setup backend
+* [x] - Setup initial project
 
 **Optional Stories**
 
