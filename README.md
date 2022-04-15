@@ -33,6 +33,7 @@ This app will be able to used by commuters or travelers who are looking for plac
 * [ ] - User stays logged in when exiting app
 * [x] - Setup backend
 * [x] - Setup initial project
+* [x] - Setup launch screen and show app logo
 
 **Optional Stories**
 
@@ -226,5 +227,9 @@ https://www.figma.com/proto/wOTzwrtGpIHSoKkD0b0WQM/ParkMe?node-id=32%3A203&scali
         }
     }
     ```
+
+## Sprint 1
+<img src='https://github.com/Alankvuong/ParkMe/blob/main/ParkMe-Sprint1-ShowLaunchScreen.gif?raw=true' />
+
 
 
