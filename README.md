@@ -31,7 +31,7 @@ This app will be able to used by commuters or travelers who are looking for plac
 * [ ] - User can update their password
 * [ ] - User can logout from their account
 * [ ] - User stays logged in when exiting app
-* [ ] - Setup backend
+* [x] - Setup backend
 
 **Optional Stories**
 
